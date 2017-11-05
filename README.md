@@ -1,11 +1,12 @@
 # Intergas Central Heating Monitor for Homie 2.0
 
-This is an update of the previous. The functionality is almost the same but the source is much more simple because of Homie.
+This is an update of the previous project for the Intergas Central Heating Monitor. The functionality is almost the same but the source is much more simple because of Homie. You can now also add to two temperature sensor to measure the flow and return temperature.
+It is monitoring my Intergas Prestige CW6 for more than a year now. Because it also monitors the heating pump, I can switch on my floor heating pump at the same time.
 
 * This program can read the the status of a Central heating from Intergas.
   It has been built for an esp8266. The central heating status is sent through MQTT to a central system (MQTT broker).
   
-* Configuration is done using the configuration mode Homie. No need to add wifi password to the code anymore.
+* Configuration is done using the configuration mode Homie. No need to add a wifi password to the code anymore.
 
 * How to connect the esp8266 to the Intergas (is the same as previous version)
 
